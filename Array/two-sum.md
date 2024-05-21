@@ -1,12 +1,10 @@
-## LeetCode Questions
-#
-
-
-> # Two Sum
+# Two Sum
 * Given an array of integers **nums** and an integer target, return indices of the two numbers such that they add up to **target**.
 * You may assume that each input would have exactly one solution, and you may not use the same element twice. 
 * You can return the answer in any order
 * Keep in mind that the given array is ordered
+
+> ## Pointer Implementation
 
 ### Example 1
 ```
@@ -85,20 +83,26 @@ class Solution {
 
 ### Python Implementation
 ```python
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        a_pointer = 0
-        b_pointer = len(nums) - 1
+def twoSum_pointer(self, nums: List[int], target: int) -> List[int]:
+    a_pointer = 0
+    b_pointer = len(nums) - 1
 
-        while (a_pointer <= b_pointer):
-            sum = nums[a_pointer] + nums[b_pointer]
+    while (a_pointer <= b_pointer):
+        sum = nums[a_pointer] + nums[b_pointer]
 
-            if (sum > target):
-                b_pointer -= 1
-            elif (sum < target):
-                a_pointer += 1    
-            else:
-                return [a_pointer, b_pointer]
+        if (sum > target):
+            b_pointer -= 1
+        elif (sum < target):
+            a_pointer += 1    
+        else:
+            return [a_pointer, b_pointer]
 
-        return [a_pointer, b_pointer]
+    return [a_pointer, b_pointer]
+```
+
+> ## Hashmap Implementation
+
+```python
+def twoSum_hashmap(self, nums: List[int], target: int) -> List[int]:
+    for i, 
 ```
