@@ -103,6 +103,11 @@ def twoSum_pointer(self, nums: List[int], target: int) -> List[int]:
 > ## Hashmap Implementation
 
 ```python
-def twoSum_hashmap(self, nums: List[int], target: int) -> List[int]:
-    for i, 
+    def twoSum_hashmap(self, nums, target: int):
+        dct = {int:int} 
+        for i, element in enumerate(nums):
+            if element in dct:
+                return [dct[element], i]
+            else:
+                dct[target-element] = i 
 ```
