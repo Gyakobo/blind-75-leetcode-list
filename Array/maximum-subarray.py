@@ -1,5 +1,5 @@
 class Solution:
-    # Kadane's algorithm
+    # Kadane's algorithm - basically sums up digits and assigns the biggest number to 'maxSub'
     def kadane_algo(self, nums):
         maxSub = nums[0]
         curSum = 0
