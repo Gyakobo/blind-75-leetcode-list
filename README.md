@@ -6,11 +6,11 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 
 ## Topics
 ### Array
-* Two Sum
-* Best Time to Buy and Sell Stock
-* Contains Duplicate
-* Product of Array Except Self
-* Maximum Subarray
+* Two Sum - hashmap
+* Best Time to Buy and Sell Stock - sliding window
+* Contains Duplicate - set / array
+* Product of Array Except Self - arithmetic
+* Maximum Subarray - Kadane's theorem
 * Maximum Product Subarray
 * Find Minimum in Rotated Sorted Array
 * Search in Rotated Sorted Array
@@ -102,7 +102,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Find Median from Data Stream
 
 >[!NOTE]
->The following theorem's shall be used to solve the aforementioned leetode questions: *Boyer-Moore theorem* and *Kadane's theorem*(Maximum Subarray).
+>The following theorem's shall be used to solve the aforementioned leetode questions: *Boyer-Moore theorem* and *Kadane's theorem* (Maximum Subarray).
 
 ## License
 MIT
