@@ -101,5 +101,10 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Top K Frequent Elements
 * Find Median from Data Stream
 
+>[!NOTE]
+>The following theorem's shall be used to solve the aforementioned leetode questions
+    * Boyer-Moore theorem 
+    * Kadane's theorem
+
 ## License
 MIT
