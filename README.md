@@ -11,7 +11,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Contains Duplicate - set / array
 * Product of Array Except Self - arithmetic
 * Maximum Subarray - Kadane's theorem
-* Maximum Product Subarray
+* Maximum Product Subarray - dynamic programming 
 * Find Minimum in Rotated Sorted Array
 * Search in Rotated Sorted Array
 * 3 Sum - 3 pointers?
