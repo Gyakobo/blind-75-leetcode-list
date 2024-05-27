@@ -14,7 +14,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Maximum Product Subarray
 * Find Minimum in Rotated Sorted Array
 * Search in Rotated Sorted Array
-* 3 Sum
+* 3 Sum - 3 pointers?
 * Container With Most Water
 
 ### Binary
