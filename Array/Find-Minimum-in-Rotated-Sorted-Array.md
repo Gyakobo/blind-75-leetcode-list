@@ -14,4 +14,4 @@ Notice that rotating an array `[a[0], a[1], a[2], ..., a[n-1]]` 1 time results i
 Given the sorted rotated array nums of *unique* elements, return the minimum element of this array.
 
 >[!Note]
->You must write an algorithm that runs in O(log n) time.
+>You could of course implement a simple for loop algorithm that gives an answer in O(n) time complexity, but you must write an algorithm that runs in O(log n) time.
