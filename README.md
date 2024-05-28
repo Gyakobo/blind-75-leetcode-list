@@ -12,7 +12,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Product of Array Except Self - arithmetic
 * Maximum Subarray - Kadane's theorem
 * Maximum Product Subarray - dynamic programming 
-* Find Minimum in Rotated Sorted Array
+* Find Minimum in Rotated Sorted Array - binary search
 * Search in Rotated Sorted Array
 * 3 Sum - 3 pointers?
 * Container With Most Water

@@ -15,3 +15,5 @@ Given the sorted rotated array nums of *unique* elements, return the minimum ele
 
 >[!Note]
 >You could of course implement a simple for loop algorithm that gives an answer in O(n) time complexity, but you must write an algorithm that runs in O(log n) time.
+
+A valid solution would be two use *3 pointers*
