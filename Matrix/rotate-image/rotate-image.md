@@ -69,5 +69,5 @@ A^\prime \rightarrow
 7 & 4 & 1\\
 8 & 5 & 2\\
 9 & 6 & 3\\
-\end{array}\right)
+\end{array}\right) \rightarrow B
 $$ 
