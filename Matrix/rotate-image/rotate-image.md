@@ -5,18 +5,18 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 ### Methodology
 
 1. Before we even get to the code let's consider the following matrix:
-$
+$$
 A = 
 \left(\begin{array}{cc} 
 1 & 2 & 3\\
 4 & 5 & 6\\
 7 & 8 & 9\\
 \end{array}\right)
-$ 
+$$
 
 2. To rotate this matrix you to do the following:
-* Reverse the order of columns: $A_{j} \rightarrow A^\prime_{j}$
-* Transpose the matrix: $A^\prime_{ij} \rightarrow A^\prime_{ji}$
+* Reverse the order of columns: $$A_{j} \rightarrow A^\prime_{j}$$
+* Transpose the matrix: $$A^\prime_{ij} \rightarrow A^\prime_{ji}$$
 
 3. In particular here is a mathematical representation:
 $$
