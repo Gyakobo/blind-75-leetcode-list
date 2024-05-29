@@ -33,6 +33,7 @@ $$
 * Transpose the matrix: $$A^\prime_{ij} \rightarrow A^\prime_{ji}$$
 
 3. In particular here is a mathematical representation:
+
 $$
 A = 
 \left(\begin{array}{cc} 
