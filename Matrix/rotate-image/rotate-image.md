@@ -2,9 +2,11 @@
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
+This [README](https://github.com/Gyakobo/blind-75-leetcode-list/blob/main/Matrix/rotate-image/rotate-image.md) serves as an explanation for how to rotate a matrix by 90 degrees.
+
 ### Methodology
 
-1. Before we even get to the code let's consider the following matrix:
+1. Let's consider the following matrices:
 $$
 A = 
 \left(\begin{array}{cc} 
@@ -12,7 +14,18 @@ A =
 4 & 5 & 6\\
 7 & 8 & 9\\
 \end{array}\right)
-$$
+$$ 
+
+$$ 
+B = 
+\left(\begin{array}{cc} 
+7 & 4 & 1\\
+8 & 5 & 2\\
+9 & 6 & 3\\
+\end{array}\right)
+$$ 
+
+> Our aim is to basically convert matrix A into B - short and simple
 
 2. To rotate this matrix you to do the following:
 * Reverse the order of columns: $$A_{j} \rightarrow A^\prime_{j}$$
