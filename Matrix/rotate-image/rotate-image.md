@@ -7,6 +7,7 @@ This [README](https://github.com/Gyakobo/blind-75-leetcode-list/blob/main/Matrix
 ### Methodology
 
 1. Let's consider the following matrices:
+
 $$
 A = 
 \left(\begin{array}{cc} 
