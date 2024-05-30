@@ -4,6 +4,9 @@
 ![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
+>[!WARNING]
+>This project as of yet is still under development
+
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 This github repo serves to educate any wonderer who comes upon this page of essential leetcode questions any programmer ought to know. 
