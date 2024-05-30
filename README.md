@@ -1,5 +1,10 @@
 # Blind 75 Leetcode List
 
+![image](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)
+![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) [LinkedIN](www.linkedin.com/in/andrew-gyakobo)
+
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 This github repo serves to educate any wonderer who comes upon this page of essential leetcode questions any programmer ought to know. 
