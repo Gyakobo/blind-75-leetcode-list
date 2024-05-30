@@ -69,17 +69,17 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 ### Matrix
 * Set Matrix Zeroes
 * Spiral Matrix
-* Rotate Image
+* Rotate Image - Math formula
 * Word Search
 
 ### String
 * Longest Substring Without Repeating Characters
 * Longest Repeating Character Replacement
 * Minimum Window Substring
-* Valid Anagram
+* Valid Anagram 
 * Group Anagrams
 * Valid Parentheses
-* Valid Palindrome
+* Valid Palindrome - Two pointers or Stack
 * Longest Palindromic Substring
 * Palindromic Substrings
 * Encode and Decode Strings (Leetcode Premium)
