@@ -4,6 +4,11 @@
  * @return {boolean}
  */
 var isAnagram = function(s, t) {
-    // If I felt like it I would make a dictionary counter of the characters and check if those matched
-    return s.split("").sort().join("") === t.split("").sort().join("");
+    let d = {};
+    s.split("").map((a) => d[a] = a in d ? d[a] + 1 : 1);
+    t.split("").map((a) => d[a] = a in d ? d[a] - 1 : -1);
+    for (let a in d) {
+        if (d[a] !== 0) return false;
+    }
+    return true;
 };
