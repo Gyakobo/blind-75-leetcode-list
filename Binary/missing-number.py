@@ -1,12 +1,12 @@
 class Solution:
     def missing_number(self, nums):
         n = len(nums)
-        s = sum(nums)
         e = (n * (n+1)) // 2
+        s = sum(nums)
 
-        return e - n         
+        return e - s        
 
-nums = [3, 0, 1]
+nums = [4, 0, 1, 2]
 
 s = Solution()
 print(s.missing_number(nums))
