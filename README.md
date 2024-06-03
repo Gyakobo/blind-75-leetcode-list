@@ -36,7 +36,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Sum of Two Integers
 * Number of 1 Bits
 * Counting Bits
-* Missing Number
+* Missing Number - Gauss Summation
 * Reverse Bits
 
 ### Dynamic Programming
@@ -80,7 +80,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 ### Matrix
 * Set Matrix Zeroes
 * Spiral Matrix
-* Rotate Image - Math formula
+* Rotate Image - Linear calculus, math formula
 * Word Search
 
 ### String
