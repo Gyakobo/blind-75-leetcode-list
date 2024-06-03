@@ -16,6 +16,7 @@
 >This project as of yet is still under development
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
+
 A special thanks to my best friend [Ryan Eaton](https://github.com/R2bEEaton) for also con0tributing to this project!
 
 This github repo serves to educate any wonderer who comes upon this page of essential leetcode questions any programmer ought to know. 
