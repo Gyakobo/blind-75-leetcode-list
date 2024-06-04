@@ -89,8 +89,9 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Longest Substring Without Repeating Characters
 * Longest Repeating Character Replacement
 * Minimum Window Substring
-* Valid Anagram 
-* Group Anagrams
+* Valid Anagram - simple counter 
+* Group Anagrams - hashmap ![image](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white
+)
 * Valid Parentheses
 * Valid Palindrome - Two pointers or Stack
 * Longest Palindromic Substring
