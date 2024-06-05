@@ -91,7 +91,7 @@ This github repo serves to educate any wonderer who comes upon this page of esse
 * Minimum Window Substring
 * Valid Anagram - simple counter 
 * Group Anagrams - hashmap
-* Valid Parentheses
+* Valid Parentheses - stack
 * Valid Palindrome - Two pointers or Stack
 * Longest Palindromic Substring
 * Palindromic Substrings
