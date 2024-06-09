@@ -1,15 +1,19 @@
 class Solution:
-    def course_schedule(self, n, courses):
+    def course_schedule(self, numCourses, prerequisites):
         # Create a dependency graph
-        graph = {int:list}
-        
-        for c in courses:
-            if c[0] not in graph:
-                graph[c[0]] = [ c[1] ]
-            else:
-                graph[c[0]].append(c[1])
+        preMap = {int:list}
 
+        preMap = { i:[] for i in range(numCourses) }
+        for course, pre in prerequisites:
+            preMap[crs].append(pre)
 
+        '''
+        0: [1, 2] 
+        1: [3, 4] 
+        2: [] 
+        3: [4] 
+        4: [] 
+        '''
 
         # visited = set()
 
