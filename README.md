@@ -56,7 +56,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 
 ### Graph
 * Clone Graph
-* Course Schedule
+* Course Schedule - DFS and dependency graph
 * Pacific Atlantic Water Flow
 * Number of Islands
 * Longest Consecutive Sequence
