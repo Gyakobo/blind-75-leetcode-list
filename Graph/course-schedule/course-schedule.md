@@ -12,4 +12,26 @@ The is a simple solution to the infamous course scheduling problem using a topol
 
 * We can therefore make a dependency graph looking at all this prerequisites:
 
-<img src="" />
+<img src="./assets/dependency_graph.png" />
+
+In the code we can create the said graph this way:
+```python
+class Solution:
+    def course_schedule(self, numCourses, prerequisites):
+        # Create a dependency graph
+        preMap = {int:list}
+
+        preMap = { i:[] for i in range(numCourses) }
+        for course, pre in prerequisites:
+            preMap[crs].append(pre)
+
+        '''
+        0: [1, 2] 
+        1: [3, 4] 
+        2: [] 
+        3: [4] 
+        4: [] 
+        '''
+```
+
+* We can then just 
