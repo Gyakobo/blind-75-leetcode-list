@@ -34,4 +34,30 @@ class Solution:
         '''
 ```
 
-* We can then just 
+* We can then just run a *postorder* DFS traversal approach to this graph and basically map out a path. 
+
+>[!IMPORTANT]
+>If the path happens to come across its own tail, ie. the graph happens to have a cycle, then DFS traversal shall be immediately halted and return a `False` 
+
+```python
+visited = set()
+def dfs(crs):
+    if crs in visited:
+        return False
+    if preMap[crs] == []:
+        return True
+
+    visited.add(crs)
+    for pre in preMap[crs]:
+        if not dfs(pre): return False
+    visited.remove(crs)
+    preMap[crs] = []
+    return True
+
+for crs in range(numCourses):
+    if not dfs(crs): return False
+return True
+```
+
+## License
+MIT
