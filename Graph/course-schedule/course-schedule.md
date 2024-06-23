@@ -4,7 +4,7 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 ## Introduction
 
-The is a simple solution to the infamous course scheduling problem using a topological sort. Fun fact, my professor actually got an internship at Google Inc. by correctly solving this problem during his interview - that lucky devil.
+The is a simple solution to the infamous "course scheduling problem" using a topological sort. Fun fact, my professor actually got an internship at Google by correctly solving this problem during his interview - that lucky devil.
 
 ## Methodolgy
 
