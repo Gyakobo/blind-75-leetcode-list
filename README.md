@@ -13,7 +13,7 @@
 ![image](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
 
 >[!WARNING]
->This project as of yet is still under heavy development
+>This project as of yet is still under heavy development and any contribution is highly appreciated
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
