@@ -16,6 +16,7 @@ class Solution:
         '''
 
         visited = set()
+        
         def dfs(crs):
             if crs in visited:
                 return False
