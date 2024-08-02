@@ -1,5 +1,6 @@
 class Solution:
     def course_schedule(self, numCourses, prerequisites):
+
         # Create a dependency graph
         preMap = {int:list}
 
