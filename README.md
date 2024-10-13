@@ -24,12 +24,12 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 ## Topics
 ### Array
 * Two Sum - hashmap
-* Best Time to Buy and Sell Stock - sliding window
-* Contains Duplicate - set / array
-* Product of Array Except Self - arithmetic
-* Maximum Subarray - Kadane's theorem
-* Maximum Product Subarray - dynamic programming 
-* Find Minimum in Rotated Sorted Array - binary search
+* Best Time to Buy and Sell Stock - sliding window ⭐
+* Contains Duplicate - set / array ⭐
+* Product of Array Except Self - arithmetic ⭐
+* Maximum Subarray - Kadane's theorem ⭐
+* Maximum Product Subarray - dynamic programming ⭐
+* Find Minimum in Rotated Sorted Array - binary search ⭐
 * Search in Rotated Sorted Array
 * 3 Sum - 3 pointers?
 * Container With Most Water
@@ -38,7 +38,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 * Sum of Two Integers
 * Number of 1 Bits
 * Counting Bits
-* Missing Number - Gauss Summation
+* Missing Number - Gauss Summation ⭐
 * Reverse Bits
 
 ### Dynamic Programming
@@ -56,7 +56,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 
 ### Graph
 * Clone Graph
-* Course Schedule - DFS and dependency graph
+* Course Schedule - DFS and dependency graph ⭐
 * Pacific Atlantic Water Flow
 * Number of Islands
 * Longest Consecutive Sequence
@@ -89,10 +89,10 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 * Longest Substring Without Repeating Characters
 * Longest Repeating Character Replacement
 * Minimum Window Substring
-* Valid Anagram - simple counter 
-* Group Anagrams - hashmap
-* Valid Parentheses - stack
-* Valid Palindrome - Two pointers or Stack
+* Valid Anagram - simple counter ⭐
+* Group Anagrams - hashmap ⭐
+* Valid Parentheses - stack ⭐
+* Valid Palindrome - Two pointers or Stack ⭐
 * Longest Palindromic Substring
 * Palindromic Substrings
 * Encode and Decode Strings (Leetcode Premium)
