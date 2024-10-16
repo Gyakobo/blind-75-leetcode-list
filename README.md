@@ -23,7 +23,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 
 ## Topics
 ### Array
-* Two Sum - hashmap
+* Two Sum - hashmap ⭐
 * Best Time to Buy and Sell Stock - sliding window ⭐
 * Contains Duplicate - set / array ⭐
 * Product of Array Except Self - arithmetic ⭐
