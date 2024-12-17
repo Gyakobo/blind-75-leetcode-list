@@ -80,59 +80,83 @@ This github repo serves to educate any wonderer who comes upon this page of the 
     </ul>
 </details>
 
-### Interval
-* Insert Interval
-* Merge Intervals
-* Non-overlapping Intervals
-* Meeting Rooms (Leetcode Premium)
-* Meeting Rooms II (Leetcode Premium)
+<details>
+    <summary>Interval</summary>
+    <ul>
+        <li>Insert Interval</li>
+        <li>Merge Intervals</li>
+        <li>Non-overlapping Intervals</li>
+        <li>Meeting Rooms (Leetcode Premium)</li>
+        <li>Meeting Rooms II (Leetcode Premium)</li>
+    </ul>
+</details>
 
-### Linked List
-* Reverse a Linked List
-* Detect Cycle in a Linked List
-* Merge Two Sorted Lists
-* Merge K Sorted Lists
-* Remove Nth Node From End Of List
-* Reorder List
+<details>
+    <summary>Linked List</summary>
+    <ul>
+        <li>Reverse a Linked List</li>
+        <li>Detect Cycle in a Linked List</li>
+        <li>Merge Two Sorted Lists</li>
+        <li>Merge K Sorted Lists</li>
+        <li>Remove Nth Node From End Of List</li>
+        <li>Reorder List</li>
+    </ul>
+</details>
 
-### Matrix
-* Set Matrix Zeroes
-* Spiral Matrix
-* Rotate Image - Linear calculus, math formula
-* Word Search
+<details>
+    <summary>Matrix</summary>
+    <ul>
+        <li>Set Matrix Zeroes</li>
+        <li>Spiral Matrix</li>
+        <li>Rotate Image - Linear calculus, math formula</li>
+        <li>Word Search</li>
+    </ul>
+</details>
 
-### String
-* Longest Substring Without Repeating Characters
-* Longest Repeating Character Replacement
-* Minimum Window Substring
-* Valid Anagram - simple counter ⭐
-* Group Anagrams - hashmap ⭐
-* Valid Parentheses - stack ⭐
-* Valid Palindrome - Two pointers or Stack ⭐
-* Longest Palindromic Substring
-* Palindromic Substrings
-* Encode and Decode Strings (Leetcode Premium)
+<details>
+    <summary>String</summary>
+    <ul> 
+        <li>Longest Substring Without Repeating Characters</li>
+        <li>Longest Repeating Character Replacement</li>
+        <li>Minimum Window Substring</li>
+        <li>Valid Anagram - simple counter ⭐</li>
+        <li>Group Anagrams - hashmap ⭐</li>
+        <li>Valid Parentheses - stack ⭐</li>
+        <li>Valid Palindrome - Two pointers or Stack ⭐</li>
+        <li>Longest Palindromic Substring</li>
+        <li>Palindromic Substrings</li>
+        <li>Encode and Decode Strings (Leetcode Premium)</li>
+    </ul> 
+</details>
 
-### Tree
-* Maximum Depth of Binary Tree
-* Same Tree
-* Invert/Flip Binary Tree
-* Binary Tree Maximum Path Sum
-* Binary Tree Level Order Traversal
-* Serialize and Deserialize Binary Tree
-* Subtree of Another Tree
-* Construct Binary Tree from Preorder and Inorder Traversal
-* Validate Binary Search Tree
-* Kth Smallest Element in a BST
-* Lowest Common Ancestor of BST
-* Implement Trie (Prefix Tree)
-* Add and Search Word
-* Word Search II
+<details>
+    <summary>Tree</summary>
+    <ul>
+        <li>Maximum Depth of Binary Tree</li>
+        <li>Same Tree</li>
+        <li>Invert/Flip Binary Tree</li>
+        <li>Binary Tree Maximum Path Sum</li>
+        <li>Binary Tree Level Order Traversal</li>
+        <li>Serialize and Deserialize Binary Tree</li>
+        <li>Subtree of Another Tree</li>
+        <li>Construct Binary Tree from Preorder and Inorder Traversal</li>
+        <li>Validate Binary Search Tree</li>
+        <li>Kth Smallest Element in a BST</li>
+        <li>Lowest Common Ancestor of BST</li>
+        <li>Implement Trie (Prefix Tree)</li>
+        <li>Add and Search Word</li>
+        <li>Word Search II</li>
+    <ul>
+<details>
 
-### Heap
-* Merge K Sorted Lists
-* Top K Frequent Elements
-* Find Median from Data Stream
+<details>
+    <summary>Heap</summary>
+    <ul>
+        <li>Merge K Sorted Lists</li>
+        <li>Top K Frequent Elements</li>
+        <li>Find Median from Data Stream</li>
+    </ul>
+</details>
 
 >[!NOTE]
 >The following theorem's will be used to solve the aforementioned leetode questions: *Boyer-Moore theorem*, *Gauss's Summation theorem* and *Kadane's theorem* (Maximum Subarray).
