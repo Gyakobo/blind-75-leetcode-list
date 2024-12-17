@@ -21,7 +21,7 @@ A special thanks to my best friend [Ryan Eaton](https://github.com/R2bEEaton) fo
 
 This github repo serves to educate any wonderer who comes upon this page of the 75 essential leetcode questions any programmer ought to know. 
 
-## Topics
+### Main Topics
 <details>
 <summary>Array</summary>
 <ul>
