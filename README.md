@@ -21,7 +21,8 @@ A special thanks to my best friend [Ryan Eaton](https://github.com/R2bEEaton) fo
 
 This github repo serves to educate any wonderer who comes upon this page of the 75 essential leetcode questions any programmer ought to know. 
 
-### Main Topics
+## Main Topics
+
 <details>
 <summary>Array</summary>
 <ul>
@@ -147,7 +148,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Add and Search Word</li>
         <li>Word Search II</li>
     <ul>
-<details>
+</details>
 
 <details>
     <summary>Heap</summary>
@@ -158,8 +159,9 @@ This github repo serves to educate any wonderer who comes upon this page of the 
     </ul>
 </details>
 
->[!NOTE]
->The following theorem's will be used to solve the aforementioned leetode questions: *Boyer-Moore theorem*, *Gauss's Summation theorem* and *Kadane's theorem* (Maximum Subarray).
+
+> [!NOTE]
+> The following theorem's will be used to solve the aforementioned leetode questions: *Boyer-Moore theorem*, *Gauss's Summation theorem* and *Kadane's theorem* (Maximum Subarray).
 
 ## License
 MIT
