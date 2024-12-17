@@ -1,5 +1,6 @@
 arr = [3, 3, 3, 2, 1]
 
+# Moore's voting algorithm
 def majority_element(arr):
     n = len(arr)
     candidate = -1
@@ -28,4 +29,4 @@ def majority_element(arr):
         return -1
 
 print(dct)
-print(f"Max freq: {max(dct.values())}")
+print(f"Max freq: {majority_element(arr)}")
