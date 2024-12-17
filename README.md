@@ -22,47 +22,63 @@ A special thanks to my best friend [Ryan Eaton](https://github.com/R2bEEaton) fo
 This github repo serves to educate any wonderer who comes upon this page of the 75 essential leetcode questions any programmer ought to know. 
 
 ## Topics
-### Array
-* Two Sum - hashmap ⭐
-* Best Time to Buy and Sell Stock - sliding window ⭐
-* Contains Duplicate - set / array ⭐
-* Product of Array Except Self - arithmetic ⭐
-* Maximum Subarray - Kadane's theorem ⭐
-* Maximum Product Subarray - dynamic programming ⭐
-* Find Minimum in Rotated Sorted Array - binary search ⭐
-* Search in Rotated Sorted Array
-* 3 Sum - 3 pointers?
-* Container With Most Water
+<details>
+<summary>Array</summary>
+<ul>
+    <li>Two Sum - hashmap</li>
+    <li>Best Time to Buy and Sell Stock - sliding window ⭐</li>
+    <li>Contains Duplicate - set / array ⭐</li>
+    <li>Product of Array Except Self - arithmetic ⭐</li>
+    <li>Maximum Subarray - Kadane's theorem ⭐</li>
+    <li>Maximum Product Subarray - dynamic programming ⭐</li>
+    <li>Find Minimum in Rotated Sorted Array - binary search ⭐</li>
+    <li>Search in Rotated Sorted Array</li>
+    <li>3 Sum - 3 pointers?</li>
+    <li>Container With Most Water</li>
+</ul>
+</details>
 
-### Binary
-* Sum of Two Integers
-* Number of 1 Bits
-* Counting Bits
-* Missing Number - Gauss Summation ⭐
-* Reverse Bits
+<details>
+    <summary>Binary</summary>
+    <ul>
+        <li>Sum of Two Integers</li>
+        <li>Number of 1 Bits</li>
+        <li>Counting Bits</li>
+        <li>Missing Number - Gauss Summation ⭐</li>
+        <li>Reverse Bits</li>
+    </ul>
+</details>
 
-### Dynamic Programming
-* Climbing Stairs
-* Coin Change
-* Longest Increasing Subsequence
-* Longest Common Subsequence
-* Word Break Problem
-* Combination Sum
-* House Robber
-* House Robber II
-* Decode Ways
-* Unique Paths
-* Jump Game
+<details>
+    <summary>Dynamic Programming</summary>
+    <ul>
+        <li>Climbing Stairs</li>
+        <li>Coin Change</li>
+        <li>Longest Increasing Subsequence</li>
+        <li>Longest Common Subsequence</li>
+        <li>Word Break Problem</li>
+        <li>Combination Sum</li>
+        <li>House Robber</li>
+        <li>House Robber II</li>
+        <li>Decode Ways</li>
+        <li>Unique Paths</li>
+        <li>Jump Game</li>
+    </ul>
+</details>
 
-### Graph
-* Clone Graph
-* Course Schedule - DFS and dependency graph ⭐
-* Pacific Atlantic Water Flow
-* Number of Islands
-* Longest Consecutive Sequence
-* Alien Dictionary (Leetcode Premium)
-* Graph Valid Tree (Leetcode Premium)
-* Number of Connected Components in an Undirected Graph (Leetcode Premium)
+<details>
+    <summary>Graph</summary>
+    <ul>
+        <li>Clone Graph</li>
+        <li>Course Schedule - DFS and dependency graph ⭐</li>
+        <li>Pacific Atlantic Water Flow</li>
+        <li>Number of Islands</li>
+        <li>Longest Consecutive Sequence</li>
+        <li>Alien Dictionary (Leetcode Premium)</li>
+        <li>Graph Valid Tree (Leetcode Premium)</li>
+        <li>Number of Connected Components in an Undirected Graph (Leetcode Premium)</li>
+    </ul>
+</details>
 
 ### Interval
 * Insert Interval
