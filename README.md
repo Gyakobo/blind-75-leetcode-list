@@ -159,9 +159,19 @@ This github repo serves to educate any wonderer who comes upon this page of the 
     </ul>
 </details>
 
-
 > [!NOTE]
 > The following theorem's will be used to solve the aforementioned leetode questions: *Boyer-Moore theorem*, *Gauss's Summation theorem* and *Kadane's theorem* (Maximum Subarray).
+
+## Companies
+
+<details>
+    <summary>Atlassian</summary>
+    <ul>
+        <li>Majority Element ⭐</li>
+        <li>Group Anagrams</li>
+        <li>Stock Span</li>
+    </ul>
+</details>
 
 
 ## License

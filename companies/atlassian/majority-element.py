@@ -1,6 +1,8 @@
-arr = [3, 3, 3, 2, 1]
+array = [3, 3, 2, 3, 1]
 
 # Moore's voting algorithm
+# The devil is in the description - the majority element is strictly an element which can be
+# encoutered more than n>2
 def majority_element(arr):
     n = len(arr)
     candidate = -1
@@ -28,5 +30,5 @@ def majority_element(arr):
     else:
         return -1
 
-print(dct)
-print(f"Max freq: {majority_element(arr)}")
+print(array)
+print(f"Max freq: {majority_element(array)}")
