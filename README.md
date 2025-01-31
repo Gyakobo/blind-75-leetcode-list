@@ -165,6 +165,18 @@ This github repo serves to educate any wonderer who comes upon this page of the 
 ## Companies
 
 <details>
+    <summary>Apple</summary>
+
+    <details>
+        <summary>Arrays and Graphs</summary>
+        <ul>
+            <li>Three Sum<li> 
+            <li>Merge Intervals<li> 
+        </ul>
+    </details>
+</details>
+
+<details>
     <summary>Atlassian</summary>
     <ul>
         <li>Majority Element ⭐</li>
