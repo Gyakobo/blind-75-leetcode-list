@@ -174,6 +174,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Merge Two Sorted Linked Lists</li> 
         <li>Determine if two binary trees are identical</li>
         <li>Mirror Binary Tree</li>
+        <li>Palindrome Substrings</li>
     </ul>
 </details>
 
