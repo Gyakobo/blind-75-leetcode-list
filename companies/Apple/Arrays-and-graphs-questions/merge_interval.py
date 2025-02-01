@@ -1,4 +1,7 @@
 
+# Time complexity: O(n)
+# Memory complexity: O(n)
+
 def merge_intervals(intervals: list[tuple[int]]) -> list[tuple[int]]:
 
     def func(obj):
