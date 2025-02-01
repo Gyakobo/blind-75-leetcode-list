@@ -170,6 +170,8 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Three Sum</li> 
         <li>Merge Intervals</li> 
         <li>Clone Directed Graph</li> 
+        <li>Add Two Integers</li> 
+        <li>Merge Two Sorted Linked Lists</li> 
     </ul>
 </details>
 
