@@ -1,7 +1,7 @@
 class Node:
-    def __init__(self, value):
+    def __init__(self, value = None, next = None):
         self.value = value
-        self.next = None 
+        self.next = next 
 
 def display_linked_list(root):
     while root:
@@ -30,31 +30,34 @@ node4.next = node5
 head2 = Node(1) 
 head2.next = node4
 
-def merge_two_sorted_linked_lists(tail1, tail2):
-    root = Node(None)
-    head = root
+def merge_two_sorted_linked_lists(list1, list2) -> Node:
+    newHead = Node()
+    pointer1 = list1
+    pointer2 = list2
+    pointer3 = newHead
 
-    while tail1 or tail2:
-        if tail1 and tail2 and tail1.value < tail1.value:
-            head.next = tail1
-            head = tail1
+    while pointer1 or pointer2:
+        if pointer1 and pointer2 and pointer1.value >= pointer2.value:
+            pointer3.next = pointer2
+            pointer3 = pointer2
+            pointer2 = pointer2.next
 
-        elif tail1 and tail2 and tail1.value >= tail1.value:
-            head.next = tail2
-            head = tail2
+        elif pointer1 and pointer2 and pointer1.value < pointer2.value:
+            pointer3.next = pointer1
+            pointer3 = pointer1
+            pointer1 = pointer1.next
 
-        elif tail1 and not tail2:
-            head.next = tail1
-            head = tail1
-        
-        elif tail1 and not tail2:
-            head.next = tail2
-            head = tail2
+        elif pointer1 and not pointer2:
+            pointer3.next = pointer1
+            pointer3 = pointer1
+            pointer1 = pointer1.next
 
-        if tail1: tail1 = tail1.next
-        if tail2: tail2 = tail2.next
+        elif pointer2 and not pointer1:
+            pointer3.next = pointer2
+            pointer3 = pointer2
+            pointer2 = pointer2.next
 
-    return root
+    return newHead.next
 
 print("head 1:")
 display_linked_list(head1)

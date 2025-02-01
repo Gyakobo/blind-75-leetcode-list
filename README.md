@@ -172,6 +172,8 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Clone Directed Graph</li> 
         <li>Add Two Integers</li> 
         <li>Merge Two Sorted Linked Lists</li> 
+        <li>Determine if two binary trees are identical</li>
+        <li>Mirror Binary Tree</li>
     </ul>
 </details>
 

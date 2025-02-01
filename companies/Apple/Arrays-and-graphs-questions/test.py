@@ -1,38 +1,22 @@
-target = 20
+from clone_directed_graph import graph, Node, display_dependency_graph
 
-def three_sum(arr, target = target):
-    # Misc
-    res = []
-    n = len(arr)
+root = graph.get_root_node()
 
-    # Pointers
-    i = 0
-    low = i + 1
-    high = n - 1
+def clone_directed_graph(root = root):
+    oldToNew = {Node: Node} # Old : New
 
-    # Main cycle
-    arr.sort() # nlogn 
-    print("Array:", arr)
+    def dfs(head):
+        if head in oldToNew:
+            return oldToNew[head]
 
-    for i in range(n-2):
-        low = i + 1
-        high = n - 1
+        copy = Node(head.value)
+        oldToNew[head] = copy
+        for nei in head.neighbors: 
+            copy.neighbors.append(dfs(nei))
 
-        while low < high:
-            total = arr[i] + arr[low] + arr[high]
+        return copy
 
-            if total == target:
-                res.append( (arr[i], arr[low], arr[high]) )
-                break
-            elif total > target:
-                high -= 1
-            elif total < target:
-                low += 1
-    
-    return res
+    return dfs(root)
 
-#       i     l->       <-h
-nums = [3, 7, 1, 2, 8, 4, 5, 10, 10, 15, 5]
-
-print(three_sum(nums))
-
+cloned_graph = clone_directed_graph(root)
+display_dependency_graph(cloned_graph)
