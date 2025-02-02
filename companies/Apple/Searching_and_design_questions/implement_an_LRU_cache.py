@@ -1,4 +1,3 @@
-
 class Node:
     def __init__(self, key=None, value=None, left=None, right=None):
         self.left  = left
@@ -67,21 +66,34 @@ class LRUCache:
             self.quantity -= 1 
             
             boiler = self.tail.left
-            del self.hashmap[boiler.key]
             
             prev_node = boiler.left
             prev_node.right = self.tail
             self.tail.left = prev_node
+            del self.hashmap[boiler.key]
 
     def get(self, key: int) -> int:
-        return self.hashmap[key].value        
+        if key not in self.hashmap:
+            return -1
 
-        
+        boiler = self.hashmap[key]
+            
+        # Extract the node 
+        leftNode    =  boiler.left
+        rightNode   =  boiler.right
+        leftNode.right = rightNode
+        rightNode.left = leftNode
 
+        # Insert the node 
+        boiler_ = self.head.right  
+        self.head.right = boiler
+        boiler.left = self.head
+        boiler.right = boiler_
+        boiler_.left = boiler
+
+        return boiler.value        
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-
-
