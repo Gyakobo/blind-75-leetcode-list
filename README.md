@@ -175,6 +175,10 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Determine if two binary trees are identical</li>
         <li>Mirror Binary Tree</li>
         <li>Palindrome Substrings</li>
+        <li>Reverse Words in a Sentence</li> 
+        <li>Largest Sum Subarray</li>
+        <li>Power of a number</li> 
+        <li>Search in rotated array</li>
     </ul>
 </details>
 
