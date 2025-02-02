@@ -179,6 +179,7 @@ This github repo serves to educate any wonderer who comes upon this page of the 
         <li>Largest Sum Subarray</li>
         <li>Power of a number</li> 
         <li>Search in rotated array</li>
+        <li>Implement an LRU cache</li> 
     </ul>
 </details>
 
