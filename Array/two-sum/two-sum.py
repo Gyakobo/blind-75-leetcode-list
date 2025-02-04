@@ -1,35 +1,21 @@
-class Solution:
-    def __init__(self):
-        pass
 
-    # Pointer Solution
-    def twoSum_pointer(self, nums, target: int):
-        a_pointer = 0
-        b_pointer = len(nums) - 1
+target = 7
 
-        while (a_pointer <= b_pointer):
-            sum = nums[a_pointer] + nums[b_pointer]
+# i   j 
+# 2 + 5 = 7 
 
-            if (sum > target):
-                b_pointer -= 1
-            elif (sum < target):
-                a_pointer += 1    
-            else:
-                return [a_pointer, b_pointer]
+# i    t - j
+# 2 = (7 - 5) 
 
-        return [a_pointer, b_pointer]
+def two_sum(arr, target = target):
+    hashmap = {int: int}
 
-    # Hashmap Solution
-    def twoSum_hashmap(self, nums, target: int):
-        dct = {int:int} 
-        for i, element in enumerate(nums):
-            if element in dct:
-                return [dct[element], i]
-            else:
-                dct[target-element] = i 
+    for (key, value) in enumerate(arr):
+        if value in hashmap:
+            print(key, hashmap[value])
+            break
+        else:
+            hashmap[target - value] = key
 
-func = Solution()
-my_lst = [2, 4, 3, 1] 
-my_target = 5
-
-print(func.twoSum_hashmap(my_lst, my_target))
+nums = [2, 3, 4, 5, 6, 7]
+two_sum(nums) 

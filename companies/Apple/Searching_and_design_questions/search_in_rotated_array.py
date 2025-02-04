@@ -1,4 +1,13 @@
+def binary_search_rotated(nums:list, key:int):
+    l = 0
+    r = len(nums) - 1
 
-def binary_search_rotated(arr:list, key:int):
-    pass
+    while l < r:
+        mid = (l + r) // 2
+
+        if nums[m] > nums[r]:
+            l = m + 1
+        else:
+            r = m
+
 
