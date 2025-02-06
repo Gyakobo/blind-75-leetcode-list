@@ -1,13 +1,21 @@
-def binary_search_rotated(nums:list, key:int):
-    l = 0
-    r = len(nums) - 1
+def binary_search_rotated(nums:list[int], key:int) -> int:
+    n = len(nums)
 
-    while l < r:
-        mid = (l + r) // 2
+    min_index = 0
+    middle = 0
+    left = 0
+    right = 0
 
-        if nums[m] > nums[r]:
-            l = m + 1
+    while left < right:
+        middle = (left + right) // 2
+
+        if nums[middle] > nums[right]:
+            left = middle + 1
         else:
-            r = m
+            right = middle
+
+    min_index = left
+
+    return min_index
 
 
